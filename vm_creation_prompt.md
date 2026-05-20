@@ -1,9 +1,3 @@
-Here is the revised, generalized version of your prompt. I stripped out the elements tied specifically to your hardware (like the exact Broadwell Xeon CPU reference), hardcoded storage pools (`local-zfs`), and hardcoded VM IDs.
-
-I replaced them with clear **placeholders** (like `<your-storage-pool>` and `<vmid>`) and added an automated configuration block that dynamically handles disk attachment regardless of storage names.
-
----
-
 # ONE-SHOT AGENT PROMPT: Create macOS Tahoe VM on Proxmox 9
 
 **GOAL:** Create a macOS Tahoe virtual machine on a Proxmox VE 9 host and boot it to the macOS Recovery installer screen. No Mac hardware is required. Do not use the osx-proxmox GitHub repo — it no longer works reliably.
